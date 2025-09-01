@@ -1,0 +1,73 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  height: 100dvh;
+  max-width: 1200px;
+  border-inline: 1px solid black;
+  margin: auto;
+  padding: 1rem;
+}
+
+header {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid black;
+  h1 {
+    margin-bottom: 0;
+  }
+  p {
+    margin-top: 0;
+  }
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+}
+
+table th,
+table td {
+  padding: 1rem 2rem;
+  text-align: left;
+  border-bottom: 1px solid black;
+  vertical-align: top;
+}
+
+table th {
+  font-weight: normal;
+  padding-bottom: 0.5rem;
+}
+
+/* Nested list styling within table cells */
+table ul {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+}
+
+table ul ul {
+  margin: 0.25rem 0;
+}
+
+table li {
+  margin-bottom: 0.25rem;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+  table {
+    font-size: 0.9rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.75rem 0.5rem;
+  }
+
+  table ul {
+    padding-left: 1rem;
+  }
+}
